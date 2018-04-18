@@ -12,6 +12,9 @@ import numpy as np
 
 from ._caffe import Net, SGDSolver
 import caffe.io
+import sys
+# for aws
+sys.path.insert(0,"/home/ubuntu/src/caffe_python_2/python/")
 
 # We directly update methods from Net here (rather than using composition or
 # inheritance) so that nets created by caffe (e.g., by SGDSolver) will
