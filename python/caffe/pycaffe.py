@@ -11,7 +11,7 @@ except:
 import numpy as np
 import sys
 # for aws
-sys.path.insert(0,"/home/ubuntu/src/caffe_python_2/python")
+sys.path.insert(0,'../../')
 from ._caffe import Net, SGDSolver
 import caffe.io
 # We directly update methods from Net here (rather than using composition or
