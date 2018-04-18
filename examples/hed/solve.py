@@ -2,7 +2,7 @@ from __future__ import division
 import numpy as np
 import sys
 caffe_root = '../../' 
-sys.path.insert(0, caffe_root + 'python')
+sys.path.insert(0,"/home/ubuntu/src/caffe_python_2/python/")
 import caffe
 
 # make a bilinear interpolation kernel
